@@ -1,0 +1,70 @@
+create buttons for rock paper and scissor in html
+add event listener to the buttons
+buttons will call playround() with correct player selection
+
+create html section to display results
+display running score
+clear score from previous each round
+announce winter with final score
+final score reached when someone gets 5 points
+
+reset game option once the game is done
+clear all scores and start over
+
+
+### Clarify the requirements:
+- get choices from user and computer
+- determine round result
+- update the scores
+- display the information
+- ending and resetting the game
+
+### Breakdown requirements into key functionalities
+- get choices from user and computer
+-- human choice: add buttons for rock, paper, scissor and listen for button clicks
+-- computer choice: randomly select rock, paper, scissor
+
+- get choices from user and computer
+-- compare human vs computer
+-- define winning condition
+-- deteremine if win, lose, or tie and display result
+
+- update score
+-- increase humanScore or computerScore based on result
+-- after 5, display final result
+
+- update screen after each round
+-- update screen with current score after each round
+-- show messages for each round 
+
+- end/reset
+-- display final message and reveal play again
+-- reset all scores and clear messages when player clicks play again
+
+1. Initialize humanScore and computerScore to 0.
+2. Display choice buttons (Rock, Paper, Scissor) for the human player.
+3. When the player clicks a choice:
+    a. Get the computer’s random choice.
+    b. Determine the result (win, lose, tie).
+    c. Update the round message based on the result.
+    d. Update the scores based on the result.
+4. After each round, check if either score is 5.
+    a. If true, end the game:
+       i. Display the final result.
+       ii. Show the "Play Again" button.
+5. When "Play Again" is clicked:
+    a. Reset scores and round message.
+    b. Hide the final result and reset button.
+    c. Re-enable choice buttons.
+
+
+### Write out pseudocode
+
+### Translate the pseudocode into code
+
+### test and refine
+
+
+
+
+
